@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg">
+
+          <ImageView
+              android:id="@+id/noob"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_x="184dp"
+              android:layout_y="-1dp"
+              android:clickable="true"
+              android:onClick="noobClick"
+              android:src="@drawable/noob" />
+
+          <ImageView
+              android:id="@+id/inter"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_x="186dp"
+              android:layout_y="73dp"
+              android:clickable="true"
+              android:onClick="interClick"
+              android:src="@drawable/inter" />
+
+          <ImageView
+              android:id="@+id/genius"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_x="189dp"
+              android:layout_y="146dp"
+              android:clickable="true"
+              android:onClick="geniusClick"
+              android:src="@drawable/genius" />
+
+</AbsoluteLayout>
